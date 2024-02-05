@@ -8,9 +8,9 @@ function Contact() {
       <div className={styles.contact_con}>
         <div className={styles.contact_info}>
           <h3>Get in touch</h3>
-          <p className={styles.contact_desc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga eius eligendi in laboriosam delectus ipsum inventore alias dolorem ducimus aliquid.</p>
-          <p className={styles.contact_address}>123 Main Street <br />
-             Bangkok, Thailand</p>
+          {/* <p className={styles.contact_desc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga eius eligendi in laboriosam delectus ipsum inventore alias dolorem ducimus aliquid.</p> */}
+          <p className={styles.contact_address}>Lom Kao <br />
+             Phetchabun, Thailand 67120</p>
           <p><FaPhone /> (+66) 95 268 3075</p>
           <p><FaEnvelope /> diymos78@gmail.com</p>
         </div>
@@ -19,11 +19,11 @@ function Contact() {
                 <div className={styles.input_group}>
                   <div>
                     <label htmlFor="first name">First Name</label>
-                    <input type="text" placeholder='eg. John' />
+                    <input type="text" placeholder='first name' />
                   </div>
                   <div>
                   <label htmlFor="last name">Last Name</label>
-                    <input type="text" placeholder='eg. Doe' />
+                    <input type="text" placeholder='last name' />
                   </div>
                 </div>
                 <label htmlFor="emai address">Email address</label>

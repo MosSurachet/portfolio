@@ -22,7 +22,7 @@
         & .text_2{
             font-size: 64px;
             font-weight: bold;
-            color: #0085ff;
+            color: #E78895;
         }
 
         & .text_3{
@@ -32,6 +32,7 @@
         & .text_4{
             font-size: 16px;
             margin-top: 25px;
+
         }
 
         & .hero_social{
@@ -53,8 +54,8 @@
             width: 300px;
             height: 300px;
             border-radius: 100%;
-            background-image: url('https://images.unsplash.com/photo-1615109398623-88346a601842?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hbnxlbnwwfHwwfHx8MA%3D%3D');
-            background-position: center;
+            background-image: url('photoSurachet.jpg');
+            background-position: top center;
             background-size: cover;
             margin-left: 130px;
         }
