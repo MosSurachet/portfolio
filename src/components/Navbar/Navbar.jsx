@@ -15,7 +15,7 @@ function Navbar() {
         <div className={styles.container}>
             <div className={styles.nav_con}>
                 <div className={styles.logo}>
-                    <a href="#">mos.dev</a>
+                    <a href="">mos.dev</a>
                 </div>
                 <ul>
                     <li><a href="#">Skills</a></li>
@@ -24,7 +24,7 @@ function Navbar() {
                 </ul>
 
                 <div className={styles.button}>
-                    <a href="#">Hire Me</a>
+                    <a href="Mos.html">Click Me</a>
                 </div>
             </div>
 
