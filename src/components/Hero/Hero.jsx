@@ -31,10 +31,10 @@ function Hero() {
               <span style={{fontWeight:'bold'}}>
                 <TypeAnimation
                   sequence={[
-                    ' bangkok web solution', 100,
+                    ' bangkok web solution', 1000,
                     '', 100,
                   ]}
-                    speed={30}
+                    speed={40}
                     repeat={Infinity}
                   />
               </span>during the summer."
