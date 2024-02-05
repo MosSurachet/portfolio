@@ -1,7 +1,9 @@
 nav{
     overflow: hidden;
     background-color: #85586F;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 
     & a{
         color:  #fff;
@@ -44,6 +46,7 @@ nav{
                 }
             }
         }
+
 
         & .button{
             width: 100px;
