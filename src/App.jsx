@@ -19,11 +19,11 @@ function App() {
     <BrowserRouter>
       <>
         <Navbar />
-        <Routes>
+        {/* <Routes>
           <Route path='/about' element = {<Hero />} />
           <Route path='/skills' element = {<Skills />} />
           <Route path='/contact' element = {<Contact />} />
-        </Routes>
+        </Routes> */}
         <Hero />
         <Skills />
         <Portfolio />

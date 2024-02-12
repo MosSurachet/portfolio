@@ -43,11 +43,11 @@ function Navbar() {
                         <NavLink end to="/Skills" className={({ isActive }) => isActive ? activeClassName : undefined}> Skills </NavLink>
                         </li> */}
                     </ul>
-                    <Routes>
+                    {/* <Routes>
                         <Route path='/contact' element = {<Contact />}/>
                         <Route path='/Portfolio' element = {<portfolio />}/>
                         <Route path='/Skills' element = {<Skills />}/>
-                    </Routes>
+                    </Routes> */}
                     <div className={styles.button}>
                         <a href="Mos.html">Click Me</a>
                     </div>
