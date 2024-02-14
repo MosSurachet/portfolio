@@ -16,14 +16,14 @@
 
     & .port_list{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-items: center;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+        justify-items:center;
 
         & .port_items{
             margin-top: 60px;
 
             & img{
-                width: 300px;
+                width: 400px;
                 height: 300px;
                 border-radius: 20px;
                 

@@ -1,7 +1,7 @@
 nav{
     overflow: hidden;
     background-color: #85586F;
-    position: fixed;
+    position: top;
     width: 100%;
     z-index: 1;
 
