@@ -11,6 +11,7 @@ import NumberEXP from './components/NumberEXP/NumberEXP'
 import Testimonials from './components/Testimonials/Testimonials'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import Certificate from './components/Certificate/Certificate'
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <NumberEXP />
         <Testimonials /> */}
         {/* <Contact /> */}
+        <Certificate />
         
         <Footer /> 
       </>
