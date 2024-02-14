@@ -24,7 +24,7 @@ function Navbar() {
                         <a href=""><NavLink end to="" className={({ isActive }) => isActive ? activeClassName : undefined}> mos.dev </NavLink></a>
                     </div>
                     <ul>
-                        <li>
+                        {/* <li>
                             <a href="/contact">Contact</a>
                         </li>
                         <li>
@@ -32,7 +32,7 @@ function Navbar() {
                         </li>
                         <li>
                             <a href="/skills">Skills</a>
-                        </li>
+                        </li> */}
                         {/* <li>
                         <NavLink end to="/contact" className={({ isActive }) => isActive ? activeClassName : undefined}> Contact </NavLink>
                         </li>
