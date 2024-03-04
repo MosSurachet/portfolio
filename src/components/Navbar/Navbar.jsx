@@ -49,7 +49,7 @@ function Navbar() {
                         <Route path='/Skills' element = {<Skills />}/>
                     </Routes> */}
                     <div className={styles.button}>
-                        <a href="Mos.html">Click Me</a>
+                        <a href="#">Click Me</a>
                     </div>
                 </div>
 
