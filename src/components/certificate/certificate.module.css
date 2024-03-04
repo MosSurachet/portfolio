@@ -1,5 +1,5 @@
 .port_con{
-    height: 500px;
+    height: 500px !important;
     margin: 0 auto;
     overflow: hidden;
     background-color: #85586F;
@@ -15,17 +15,38 @@
     }
 
     & .port_list{
-        display: grid;
-        grid-template-columns: 0.5fr 0.5fr 0.5fr;
         justify-items:center;
-
         & .port_items{
             margin-top: 60px;
-
-            & img{
+            margin-left:5%;
+            margin-right: 5%;
+            display: flex;
+            justify-content:space-between;
+            & .cer1_img{
                 width: 400px;
                 height: 300px;
                 border-radius: 20px;
+                background-image: url('/src/assets/images/cer-react.jpg');
+                background-position: top center;
+                background-size: cover;
+                
+            }
+            & .cer2_img{
+                width: 400px;
+                height: 300px;
+                border-radius: 20px;
+                background-image: url('/src/assets/images/cer_webapp.jpg');
+                background-position: top center;
+                background-size: cover;
+         
+            }
+            & .cer3_img{
+                width: 400px;
+                height: 300px;
+                border-radius: 20px;
+                background-image: url('/src/assets/images/CertificateFWB.jpg');
+                background-position: top center;
+                background-size: cover;
                 
             }
 
