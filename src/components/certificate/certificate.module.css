@@ -26,7 +26,7 @@
                 width: 400px;
                 height: 300px;
                 border-radius: 20px;
-                background-image: url('/assets/images/cer-react.jpg');
+                background-image: url('/src/assets/images/cer-react.jpg');
                 background-position: top center;
                 background-size: cover;
                 
@@ -35,7 +35,7 @@
                 width: 400px;
                 height: 300px;
                 border-radius: 20px;
-                background-image: url('/assets/images/cer_webapp.jpg');
+                background-image: url('/src/assets/images/cer_webapp.jpg');
                 background-position: top center;
                 background-size: cover;
          
@@ -44,7 +44,7 @@
                 width: 400px;
                 height: 300px;
                 border-radius: 20px;
-                background-image: url('/assets/images/CertificateFWB.jpg');
+                background-image: url('/src/assets/images/CertificateFWB.jpg');
                 background-position: top center;
                 background-size: cover;
                 
